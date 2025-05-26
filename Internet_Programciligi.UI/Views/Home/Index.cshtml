@@ -1,0 +1,106 @@
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<!-- Banner Section Start -->
+<section class="banner-style-4 banner-padding">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-12 col-xl-6 col-lg-6">
+                <div class="banner-content">
+                    <span class="subheading">3000+ Online Kurs</span>
+                    <h1>Öğrenme Becerilerinizi Geliştirin ve Hayatınızı Yükseltin</h1>
+                    <p class="mb-40">Eğitim Portalı ile kariyerinizi şekillendirin. Uzman eğitmenlerimiz ve kaliteli içeriklerimizle yanınızdayız.</p>
+
+                    <div class="btn-container">
+                        <a asp-controller="Home" asp-action="Courses" class="btn btn-main rounded">Kursları Keşfet</a>
+                        <a asp-controller="Home" asp-action="Register" class="btn btn-white rounded ms-2">Hemen Başla</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-xl-6 col-lg-6">
+                <div class="banner-img-round mt-10 mt-lg-0 ps-10">
+                    <img src="~/edumel-assets/images/banner/banner_img.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner Section End -->
+
+<!-- Counter Section start -->
+<section class="counter-section4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-12 counter-inner">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="counter-item mb-5 mb-lg-0">
+                            <div class="count">
+                                <span class="counter h2" id="studentCount">0</span><span>+</span>
+                            </div>
+                            <p>Öğrenci</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="counter-item mb-5 mb-lg-0">
+                            <div class="count">
+                                <span class="counter h2" id="courseCount">0</span>
+                            </div>
+                            <p>Online Kurs</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="counter-item">
+                            <div class="count">
+                                <span class="counter h2">97</span><span>%</span>
+                            </div>
+                            <p>Memnuniyet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Counter Section End -->
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            var apiBaseUrl = "@ViewBag.ApiBaseURL";
+
+            // İstatistikleri getir
+            getStatistics();
+
+            // İstatistikleri getiren fonksiyon
+            function getStatistics() {
+                // Kurs sayısını getir
+                $.ajax({
+                    url: apiBaseUrl + "/Course",
+                    type: "GET",
+                    success: function(courses) {
+                        const activeCourseCount = courses.filter(c => c.isActive).length;
+                        $("#courseCount").text(activeCourseCount);
+                        
+                        // Toplam öğrenci sayısını hesapla
+                        const totalStudents = courses.reduce((total, course) => total + (course.studentCount || 0), 0);
+                        $("#studentCount").text(totalStudents);
+                        
+                        // Counter animasyonunu başlat
+                        $('.counter').counterUp({
+                            delay: 10,
+                            time: 1000
+                        });
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("İstatistikler yüklenirken hata oluştu:", error);
+                    }
+                });
+            }
+        });
+    </script>
+} 

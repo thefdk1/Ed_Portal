@@ -1,0 +1,853 @@
+@{
+    ViewData["Title"] = "Kurs Detayları";
+}
+
+<!-- Banner Section Start -->
+<section class="page-header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-8">
+                <div class="title-block">
+                    <h1>Kurs Detayları</h1>
+                    <ul class="header-bradcrumb justify-content-center">
+                        <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                        <li><a asp-controller="Home" asp-action="Courses">Kurslar</a></li>
+                        <li class="active" aria-current="page">Kurs Detayları</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-wrapper">
+    <div class="tutori-course-content">
+        <div class="container">
+            <div id="courseDetails">
+                <div class="text-center py-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Yükleniyor...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+            const apiBaseUrl = "@ViewBag.ApiBaseURL";
+            const courseId = @ViewBag.CourseId;
+            let isEnrolled = false;
+            const token = "@Context.Session.GetString("JWTToken")";
+            
+            // Bootstrap tab'lerini aktifleştir
+            $('a[data-bs-toggle="tab"]').on('click', function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+                
+                // Müfredat sekmesine tıklandığında dersleri yükle
+                if ($(this).attr('href') === '#nav-curriculum') {
+                    getLessons();
+                }
+            });
+            
+            // Sayfa yüklendiğinde kurs detaylarını getir
+            getCourseDetails();
+            
+            // Ders tamamlama durumunu kontrol eden fonksiyon
+            function getLessonCompletionStatus(callback) {
+                @if (Context.Session.GetString("JWTToken") != null) {
+                    <text>
+                    $.ajax({
+                        url: apiBaseUrl + "/Progress/course/" + courseId,
+                        type: "GET",
+                        headers: {
+                            "Authorization": "Bearer " + token
+                        },
+                        success: function(progress) {
+                            const completedLessonIds = progress
+                                .filter(p => p.isCompleted)
+                                .map(p => p.lessonId);
+                            callback(completedLessonIds);
+                        },
+                        error: function() {
+                            console.log("Ders tamamlama durumu alınamadı");
+                            callback([]);
+                        }
+                    });
+                    </text>
+                } else {
+                    <text>
+                    callback([]);
+                    </text>
+                }
+            }
+            
+            // Kurs detaylarını getiren fonksiyon
+            function getCourseDetails() {
+                $.ajax({
+                    url: apiBaseUrl + "/Course/" + courseId,
+                    type: "GET",
+                    success: function(course) {
+                        console.log("API'den gelen kurs detayları:", course);
+                        // Kullanıcı giriş yapmışsa, kursa kayıt olup olmadığını kontrol et
+                        @if (Context.Session.GetString("JWTToken") != null) {
+                            <text>
+                            checkEnrollmentStatus();
+                            </text>
+                        }
+                        
+                        displayCourseDetails(course);
+                    },
+                    error: function(xhr, status, error) {
+                        let errorMessage = "Kurs bilgisi yüklenirken bir hata oluştu";
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        $("#courseDetails").html(`
+                            <div class="alert alert-danger">
+                                ${errorMessage}
+                            </div>
+                        `);
+                    }
+                });
+            }
+            
+            // Kullanıcının kursa kayıt durumunu kontrol eden fonksiyon
+            function checkEnrollmentStatus() {
+                @if (Context.Session.GetString("JWTToken") != null) {
+                    <text>
+                    $.ajax({
+                        url: apiBaseUrl + "/Enrollment/my-enrollments",
+                        type: "GET",
+                        headers: {
+                            "Authorization": "Bearer " + token
+                        },
+                        success: function(enrollments) {
+                            if (enrollments && enrollments.length > 0) {
+                                isEnrolled = enrollments.some(e => e.courseId === courseId);
+                                updateEnrollButton();
+                            }
+                        }
+                    });
+                    </text>
+                }
+            }
+            
+            // Kurs detaylarını görüntüleyen fonksiyon
+            function displayCourseDetails(course) {
+                if (!course) {
+                    $("#courseDetails").html(`
+                        <div class="alert alert-danger">
+                            Kurs bulunamadı.
+                        </div>
+                    `);
+                    return;
+                }
+                
+                let imageUrl = '/images/course-default.jpg';
+                if (course.imageUrl) {
+                    if (course.imageUrl.startsWith('http')) {
+                        imageUrl = course.imageUrl;
+                    } else {
+                        const baseUrl = apiBaseUrl.replace('/api', '');
+                        imageUrl = baseUrl + course.imageUrl;
+                    }
+                }
+
+                let enrollButton = '';
+                @if (Context.Session.GetString("JWTToken") != null) {
+                    <text>
+                    enrollButton = `
+                        <div class="buy-btn">
+                            <button id="btnEnroll" class="btn btn-main rounded" data-course-id="${course.id}">
+                                Kursa Kayıt Ol
+                            </button>
+                            <div id="enrollmentResult" class="mt-3"></div>
+                        </div>
+                    `;
+                    </text>
+                } else {
+                    <text>
+                    enrollButton = `
+                        <div class="buy-btn">
+                            <a href="/Login" class="btn btn-main-2 rounded">Giriş Yap</a>
+                            <p class="mt-2">Kursa kaydolmak için giriş yapmalısınız.</p>
+                        </div>
+                    `;
+                    </text>
+                }
+                
+                // Öğretmen bilgisini kontrol et ve görüntüle
+                const teacherName = course.teacherName || 'Eğitmen bilgisi bulunamadı';
+                console.log("Öğretmen bilgisi:", {
+                    teacherName: course.teacherName,
+                    teacherProfileId: course.teacherProfileId
+                });
+                
+                const template = `
+                    <div class="row">
+                        <div class="col-lg-7 col-xl-8">
+                            <div class="course-header-wrapper">
+                                <div class="course-thumb">
+                                    <img src="${imageUrl}" alt="${course.name}" class="img-fluid w-100">
+                                </div>
+
+                                <div class="course-single-header">
+                                    <h2 class="course-title">${course.name}</h2>
+                                    <p>${course.description || 'Bu kurs için açıklama bulunmamaktadır.'}</p>
+                                    
+                                    <div class="course-header-meta">
+                                        <ul class="inline-list list-info">
+                                            <li>
+                                                <div class="course-author">
+                                                    <i class="far fa-user-alt me-2"></i>${teacherName}
+                                                </div>
+                                            </li>
+                                            <li><i class="far fa-play-circle me-2"></i><span class="lesson-count">Yükleniyor...</span></li>
+                                            <li><i class="fa fa-user me-2"></i>${course.studentCount || 0} Öğrenci</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <nav class="course-single-tabs learn-press-nav-tabs">
+                                <div class="nav nav-tabs course-nav" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-overview-tab" data-bs-toggle="tab" href="#nav-overview" role="tab" aria-controls="nav-overview" aria-selected="true">Genel Bakış</a>
+                                    <a class="nav-item nav-link" id="nav-curriculum-tab" data-bs-toggle="tab" href="#nav-curriculum" role="tab" aria-controls="nav-curriculum" aria-selected="false">Müfredat</a>
+                                    <a class="nav-item nav-link" id="nav-reviews-tab" data-bs-toggle="tab" href="#nav-reviews" role="tab" aria-controls="nav-reviews" aria-selected="false">Yorumlar</a>
+                                </div>
+                            </nav>
+
+                            <div class="tab-content tutori-course-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
+                                    <div class="single-course-details">
+                                        <h4 class="course-title">Açıklama</h4>
+                                        <p>${course.description || 'Bu kurs için detaylı açıklama bulunmamaktadır.'}</p>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-curriculum" role="tabpanel" aria-labelledby="nav-curriculum-tab">
+                                    <div class="course-widget course-info">
+                                        <h4 class="course-title">Dersler</h4>
+                                        <div id="lessonList">
+                                            <div class="text-center">
+                                                <div class="spinner-border text-primary" role="status">
+                                                    <span class="visually-hidden">Yükleniyor...</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Yorumlar Sekmesi -->
+                                <div class="tab-pane fade" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
+                                    <div class="course-widget course-info">
+                                        <h4 class="course-title">Yorumlar</h4>
+                                        
+                                        @if (Context.Session.GetString("JWTToken") != null)
+                                        {
+                                            <div class="review-form mb-4">
+                                                <h5>Yorum Yap</h5>
+                                                <div class="rating-wrapper mb-3">
+                                                    <label>Puan:</label>
+                                                    <div class="rating">
+                                                        <input type="radio" name="rating" value="5" id="rating-5"><label for="rating-5">☆</label>
+                                                        <input type="radio" name="rating" value="4" id="rating-4"><label for="rating-4">☆</label>
+                                                        <input type="radio" name="rating" value="3" id="rating-3"><label for="rating-3">☆</label>
+                                                        <input type="radio" name="rating" value="2" id="rating-2"><label for="rating-2">☆</label>
+                                                        <input type="radio" name="rating" value="1" id="rating-1"><label for="rating-1">☆</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea id="reviewComment" class="form-control" rows="4" placeholder="Yorumunuzu yazın..."></textarea>
+                                                </div>
+                                                <button id="submitReview" class="btn btn-primary mt-3">Yorum Gönder</button>
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <div class="alert alert-info">
+                                                Yorum yapabilmek için <a href="/Login">giriş yapmalısınız</a>.
+                                            </div>
+                                        }
+
+                                        <div id="reviewsList">
+                                            <div class="text-center">
+                                                <div class="spinner-border text-primary" role="status">
+                                                    <span class="visually-hidden">Yorumlar yükleniyor...</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-xl-4">
+                            <div class="course-sidebar">
+                                <div class="course-widget course-details-info">
+                                    <div class="price-header">
+                                        <h2 class="course-price">${course.price ? course.price + ' ₺' : 'Ücretsiz'}</h2>
+                                    </div>
+                                    <ul class="course-sidebar-list">
+                                        <li>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span><i class="far fa-sliders-h"></i>Seviye</span>
+                                                <span>${course.level || 'Başlangıç'}</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span><i class="far fa-play-circle"></i>Ders Sayısı</span>
+                                                <span class="lesson-count">Yükleniyor...</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span><i class="far fa-user-alt"></i>Öğrenci Sayısı</span>
+                                                <span>${course.studentCount || 0} Öğrenci</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    ${enrollButton}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                $("#courseDetails").html(template);
+                
+                // Dersleri hemen yükle
+                getLessons();
+                
+                // Kayıt olma butonuna tıklanınca
+                $("#btnEnroll").click(function() {
+                    enrollCourse($(this).data("course-id"));
+                });
+                
+                // Kayıt durumuna göre butonu güncelle
+                updateEnrollButton();
+            }
+            
+            // Kayıt durumuna göre butonu güncelleyen fonksiyon
+            function updateEnrollButton() {
+                if (isEnrolled) {
+                    $("#btnEnroll").replaceWith(`
+                        <div class="alert alert-success mb-0">
+                            Bu kursa zaten kayıtlısınız
+                        </div>
+                    `);
+                }
+            }
+            
+            // Dersleri getiren ve görüntüleyen fonksiyon
+            function getLessons() {
+                console.log("Dersler yükleniyor...");
+                console.log("API URL:", apiBaseUrl + "/Lesson/course/" + courseId);
+                
+                $.ajax({
+                    url: apiBaseUrl + "/Lesson/course/" + courseId,
+                    type: "GET",
+                    success: function(lessons) {
+                        console.log("Dersler başarıyla alındı:", lessons);
+                        
+                        // Aktif ders sayısını hesapla
+                        const activeLessonCount = lessons.filter(lesson => lesson.isActive).length;
+                        console.log("Aktif ders sayısı:", activeLessonCount);
+                        
+                        // Ders sayısını güncelle - tüm lesson-count sınıfına sahip elementleri güncelle
+                        $(".lesson-count").each(function() {
+                            $(this).text(activeLessonCount + " Ders");
+                        });
+                        
+                        displayLessons(lessons);
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Ders yükleme hatası:", error);
+                        console.error("XHR:", xhr);
+                        
+                        let errorMessage = "Ders bilgileri yüklenirken bir hata oluştu";
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {
+                            console.error("Hata mesajı parse edilemedi:", e);
+                        }
+                        
+                        $("#lessonList").html(`
+                            <div class="alert alert-danger">
+                                ${errorMessage}
+                            </div>
+                        `);
+                    }
+                });
+            }
+            
+            // Dersleri görüntüleyen fonksiyon
+            function displayLessons(lessons) {
+                console.log("Dersler görüntüleniyor:", lessons);
+                
+                if (!lessons || lessons.length === 0) {
+                    $("#lessonList").html(`
+                        <div class="alert alert-info">
+                            Bu kurs için henüz ders bulunmamaktadır.
+                        </div>
+                    `);
+                    return;
+                }
+
+                getLessonCompletionStatus(function(completedLessons) {
+                    let html = '<div class="accordion" id="lessonsAccordion">';
+                    
+                    lessons.forEach((lesson, index) => {
+                        if (lesson.isActive) {
+                            let duration = lesson.duration ? `<span class="text-muted">${lesson.duration} dk</span>` : '';
+                            let isCompleted = completedLessons.includes(lesson.id);
+                            let completionBadge = isCompleted ? 
+                                '<span class="badge bg-success ms-2">İzlendi</span>' : 
+                                '<span class="badge bg-secondary ms-2">İzlenmedi</span>';
+                            
+                            html += `
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading${lesson.id}">
+                                        <button class="accordion-button collapsed" type="button" 
+                                            data-bs-toggle="collapse" 
+                                            data-bs-target="#collapse${lesson.id}" 
+                                            aria-expanded="false" 
+                                            aria-controls="collapse${lesson.id}">
+                                            <div class="course-curriculum-info">
+                                                <i class="far fa-play-circle me-2"></i>
+                                                <span class="course-curriculum-title">${index + 1}. ${lesson.title}</span>
+                                                ${completionBadge}
+                                                ${duration}
+                                            </div>
+                                        </button>
+                                    </h2>
+                                    <div id="collapse${lesson.id}" 
+                                        class="accordion-collapse collapse" 
+                                        aria-labelledby="heading${lesson.id}" 
+                                        data-bs-parent="#lessonsAccordion">
+                                        <div class="accordion-body">
+                                            <p>${lesson.description || ''}</p>
+                                            ${lesson.videoUrl ? createVideoEmbed(lesson.videoUrl, lesson.title) : ''}
+                                            ${createCompletionButton(lesson.id, isCompleted)}
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+                        }
+                    });
+                    
+                    html += '</div>';
+                    $("#lessonList").html(html);
+                    
+                    // Tamamlama butonlarına tıklama olayı ekle
+                    $(".markAsCompleted").on("click", function() {
+                        let lessonId = $(this).data("lesson-id");
+                        let $button = $(this);
+                        $button.prop("disabled", true);
+                        markLessonAsCompleted(lessonId, function(success) {
+                            if (!success) {
+                                $button.prop("disabled", false);
+                            }
+                        });
+                    });
+                });
+            }
+
+            // Video yerleştirme HTML'i oluşturan yardımcı fonksiyon
+            function createVideoEmbed(videoUrl, title) {
+                let videoId = extractYouTubeID(videoUrl);
+                if (!videoId) return '';
+                
+                return `
+                    <div class="ratio ratio-16x9 mt-3">
+                        <iframe src="https://www.youtube.com/embed/${videoId}" 
+                            title="${title}" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                `;
+            }
+
+            // Tamamlama butonu HTML'i oluşturan yardımcı fonksiyon
+            function createCompletionButton(lessonId, isCompleted) {
+                @if (Context.Session.GetString("JWTToken") != null) {
+                    <text>
+                    if (isEnrolled) {
+                        return `
+                            <div class="mt-3">
+                                <button class="btn btn-primary btn-sm markAsCompleted" 
+                                    data-lesson-id="${lessonId}" 
+                                    ${isCompleted ? 'disabled' : ''}>
+                                    ${isCompleted ? 'İzlendi Olarak İşaretlendi' : 'İzlendi Olarak İşaretle'}
+                                </button>
+                            </div>
+                        `;
+                    }
+                    </text>
+                }
+                return '';
+            }
+            
+            // YouTube URL'sinden video ID'sini çıkaran yardımcı fonksiyon
+            function extractYouTubeID(url) {
+                if (!url) return null;
+                const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+                const match = url.match(regExp);
+                return (match && match[2].length === 11) ? match[2] : null;
+            }
+            
+            // Dersi tamamlandı olarak işaretleyen fonksiyon
+            function markLessonAsCompleted(lessonId, callback) {
+                @if (Context.Session.GetString("JWTToken") != null) {
+                    <text>
+                    if (!isEnrolled) {
+                        alert("Bu dersi işaretleyebilmek için kursa kayıt olmanız gerekmektedir.");
+                        if (callback) callback(false);
+                        return;
+                    }
+                    
+                    $.ajax({
+                        url: apiBaseUrl + "/Lesson/" + lessonId + "/complete",
+                        type: "POST",
+                        headers: {
+                            "Authorization": "Bearer " + token
+                        },
+                        success: function(response) {
+                            // Düğmeyi ve rozeti bul
+                            const $button = $(`button.markAsCompleted[data-lesson-id="${lessonId}"]`);
+                            const $accordionButton = $button.closest('.accordion-item').find('.accordion-button');
+                            const $badge = $accordionButton.find('.badge');
+
+                            // Düğmeyi güncelle
+                            $button
+                                .prop("disabled", true)
+                                .text("İzlendi Olarak İşaretlendi")
+                                .removeClass("btn-primary")
+                                .addClass("btn-success");
+
+                            // Rozeti güncelle
+                            $badge
+                                .removeClass("bg-secondary")
+                                .addClass("bg-success")
+                                .text("İzlendi");
+
+                            // Animasyon efekti ekle
+                            $button.fadeOut(200).fadeIn(200);
+                            $badge.fadeOut(200).fadeIn(200);
+
+                            // Başarı mesajı göster
+                            const $successMessage = $('<div>')
+                                .addClass('alert alert-success mt-2')
+                                .text('Ders başarıyla tamamlandı!')
+                                .hide();
+                            
+                            $button.after($successMessage);
+                            $successMessage.fadeIn(300).delay(2000).fadeOut(300, function() {
+                                $(this).remove();
+                            });
+
+                            if (callback) callback(true);
+                        },
+                        error: function(xhr, status, error) {
+                            let errorMessage = "Ders izlendi olarak işaretlenirken bir hata oluştu.";
+                            try {
+                                const response = JSON.parse(xhr.responseText);
+                                if (response && response.message) {
+                                    errorMessage = response.message;
+                                }
+                            } catch (e) {}
+                            
+                            // Hata mesajını göster
+                            const $errorMessage = $('<div>')
+                                .addClass('alert alert-danger mt-2')
+                                .text(errorMessage)
+                                .hide();
+                            
+                            $(`button.markAsCompleted[data-lesson-id="${lessonId}"]`).after($errorMessage);
+                            $errorMessage.fadeIn(300).delay(3000).fadeOut(300, function() {
+                                $(this).remove();
+                            });
+
+                            if (callback) callback(false);
+                        }
+                    });
+                    </text>
+                }
+            }
+            
+            // Kursa kayıt olan fonksiyon
+            function enrollCourse(courseId) {
+                @if (Context.Session.GetString("JWTToken") != null) {
+                    <text>
+                    $.ajax({
+                        url: apiBaseUrl + "/Course/enroll/" + courseId,
+                        type: "POST",
+                        headers: {
+                            "Authorization": "Bearer " + token
+                        },
+                        success: function(response) {
+                            $("#enrollmentResult").html(`
+                                <div class="alert alert-success">
+                                    Kursa başarıyla kaydoldunuz.
+                                </div>
+                            `);
+                            
+                            isEnrolled = true;
+                            setTimeout(() => {
+                                updateEnrollButton();
+                                // Dersleri yeniden yükle
+                                getLessons();
+                            }, 2000);
+                        },
+                        error: function(xhr, status, error) {
+                            let errorMessage = "Kursa kayıt olurken bir hata oluştu";
+                            try {
+                                const response = JSON.parse(xhr.responseText);
+                                if (response && response.message) {
+                                    errorMessage = response.message;
+                                }
+                            } catch (e) {}
+                            
+                            $("#enrollmentResult").html(`
+                                <div class="alert alert-danger">
+                                    ${errorMessage}
+                                </div>
+                            `);
+                        }
+                    });
+                    </text>
+                }
+            }
+
+            // Yorumları getiren fonksiyon
+            function getReviews() {
+                console.log("Yorumlar yükleniyor...");
+                
+                $.ajax({
+                    url: apiBaseUrl + "/Review/course/" + courseId,
+                    type: "GET",
+                    success: function(reviews) {
+                        displayReviews(reviews);
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Yorum yükleme hatası:", error);
+                        $("#reviewsList").html(`
+                            <div class="alert alert-danger">
+                                Yorumlar yüklenirken bir hata oluştu.
+                            </div>
+                        `);
+                    }
+                });
+            }
+
+            // Yorumları görüntüleyen fonksiyon
+            function displayReviews(reviews) {
+                if (!reviews || reviews.length === 0) {
+                    $("#reviewsList").html(`
+                        <div class="alert alert-info">
+                            Henüz yorum yapılmamış. İlk yorumu siz yapın!
+                        </div>
+                    `);
+                    return;
+                }
+
+                let html = '<div class="reviews-list">';
+                reviews.forEach(review => {
+                    const stars = '★'.repeat(review.rating) + '☆'.repeat(5 - review.rating);
+                    const date = new Date(review.createdDate).toLocaleDateString('tr-TR');
+                    const isCurrentUser = review.userId === "@Context.Session.GetString("UserId")";
+                    
+                    html += `
+                        <div class="review-item mb-4" data-review-id="${review.id}">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h5 class="mb-1">${review.userName}</h5>
+                                    <div class="stars">${stars}</div>
+                                </div>
+                                <small class="text-muted">${date}</small>
+                            </div>
+                            <p class="mt-2 mb-2">${review.comment}</p>
+                            ${isCurrentUser ? `
+                                <div class="review-actions">
+                                    <button class="btn btn-sm btn-outline-danger delete-review">Sil</button>
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                });
+                html += '</div>';
+                $("#reviewsList").html(html);
+
+                // Silme butonuna olay dinleyicisi ekle
+                $(".delete-review").click(function() {
+                    const reviewItem = $(this).closest('.review-item');
+                    const reviewId = reviewItem.data('review-id');
+                    if (confirm('Yorumunuzu silmek istediğinize emin misiniz?')) {
+                        deleteReview(reviewId);
+                    }
+                });
+            }
+
+            // Yorum gönderme fonksiyonu
+            $(document).on('click', '#submitReview', function() {
+                console.log("Yorum gönderme butonu tıklandı");
+                
+                const rating = $('input[name="rating"]:checked').val();
+                const comment = $("#reviewComment").val().trim();
+
+                console.log("Seçilen puan:", rating);
+                console.log("Yazılan yorum:", comment);
+
+                if (!rating) {
+                    alert("Lütfen bir puan seçin.");
+                    return;
+                }
+
+                if (!comment) {
+                    alert("Lütfen bir yorum yazın.");
+                    return;
+                }
+
+                const review = {
+                    Comment: comment,
+                    Rating: parseInt(rating),
+                    CourseId: parseInt(courseId)
+                };
+
+                console.log("Gönderilecek yorum verisi:", review);
+                console.log("API URL:", apiBaseUrl + "/Review");
+
+                $.ajax({
+                    url: apiBaseUrl + "/Review",
+                    type: "POST",
+                    headers: {
+                        "Authorization": "Bearer " + token,
+                        "Content-Type": "application/json"
+                    },
+                    data: JSON.stringify(review),
+                    success: function(response) {
+                        console.log("Yorum başarıyla gönderildi:", response);
+                        
+                        // Formu temizle
+                        $("#reviewComment").val('');
+                        $('input[name="rating"]').prop('checked', false);
+                        
+                        // Yorumları yeniden yükle
+                        getReviews();
+                        
+                        alert("Yorumunuz başarıyla eklendi!");
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Yorum gönderme hatası:", error);
+                        console.error("XHR:", xhr);
+                        console.error("Status:", status);
+                        
+                        let errorMessage = "Yorum eklenirken bir hata oluştu.";
+                        try {
+                            if (xhr.status === 401) {
+                                errorMessage = "Bu işlem için giriş yapmalısınız.";
+                            } else if (xhr.responseJSON && xhr.responseJSON.message) {
+                                errorMessage = xhr.responseJSON.message;
+                            }
+                        } catch (e) {
+                            console.error("Hata mesajı parse edilemedi:", e);
+                        }
+                        
+                        alert(errorMessage + " Lütfen tekrar deneyin.");
+                    }
+                });
+            });
+
+            // Yorum silme fonksiyonu
+            function deleteReview(reviewId) {
+                $.ajax({
+                    url: apiBaseUrl + "/Review/" + reviewId,
+                    type: "DELETE",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function() {
+                        getReviews();
+                        alert("Yorumunuz başarıyla silindi!");
+                    },
+                    error: function() {
+                        alert("Yorum silinirken bir hata oluştu. Lütfen tekrar deneyin.");
+                    }
+                });
+            }
+
+            // Yorumlar sekmesine tıklandığında yorumları yükle
+            $('a[data-bs-toggle="tab"]').on('click', function (e) {
+                if ($(this).attr('href') === '#nav-reviews') {
+                    getReviews();
+                }
+            });
+
+            // Sayfa ilk yüklendiğinde yorumları getir
+            getReviews();
+        });
+    </script>
+
+    <style>
+        .rating {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 6px;
+            float: left;
+            margin: 0 10px;
+        }
+
+        .rating input {
+            display: none;
+        }
+
+        .rating label {
+            cursor: pointer;
+            font-size: 30px;
+            color: #ddd;
+        }
+
+        .rating input:checked ~ label,
+        .rating label:hover,
+        .rating label:hover ~ label {
+            color: #ffd700;
+        }
+
+        .review-item {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1rem;
+        }
+
+        .review-item:last-child {
+            border-bottom: none;
+        }
+
+        .stars {
+            color: #ffd700;
+            font-size: 18px;
+        }
+
+        .review-actions {
+            margin-top: 10px;
+        }
+
+        .review-actions button {
+            margin-right: 10px;
+        }
+    </style>
+} 

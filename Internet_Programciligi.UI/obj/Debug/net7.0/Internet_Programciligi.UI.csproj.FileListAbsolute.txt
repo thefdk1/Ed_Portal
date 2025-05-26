@@ -1,0 +1,151 @@
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.staticwebassets.runtime.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.exe
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.deps.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.runtimeconfig.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.pdb
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.AssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.RazorAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.RazorAssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.UI.styles.css
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet.9D9F0225.Up2Date
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\refint\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.pdb
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.genruntimeconfig.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\ref\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.staticwebassets.runtime.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.exe
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.deps.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.runtimeconfig.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.pdb
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.AssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.RazorAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.RazorAssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.UI.styles.css
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet.9D9F0225.Up2Date
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\refint\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.pdb
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.genruntimeconfig.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi.UI\obj\Debug\net7.0\ref\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.staticwebassets.runtime.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.exe
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.deps.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.runtimeconfig.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.pdb
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.AssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.RazorAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.RazorAssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.UI.styles.css
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet.9D9F0225.Up2Date
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\refint\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.pdb
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.genruntimeconfig.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi.UI\obj\Debug\net7.0\ref\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.staticwebassets.runtime.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.exe
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.deps.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.runtimeconfig.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Internet_Programciligi.UI.pdb
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.AssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.RazorAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.RazorAssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.UI.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.UI.styles.css
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet.9D9F0225.Up2Date
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\refint\Internet_Programciligi.UI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.pdb
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\Internet_Programciligi.UI.genruntimeconfig.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi.UI\obj\Debug\net7.0\ref\Internet_Programciligi.UI.dll

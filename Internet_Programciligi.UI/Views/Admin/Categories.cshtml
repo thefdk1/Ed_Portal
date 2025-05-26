@@ -1,0 +1,343 @@
+@{
+    ViewData["Title"] = "Kategori Yönetimi";
+    Layout = "_LayoutAdmin";
+}
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Kategori Yönetimi</h1>
+    <button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" data-toggle="modal" data-target="#addCategoryModal">
+        <i class="fas fa-plus fa-sm text-white-50"></i> Yeni Kategori
+    </button>
+</div>
+
+<!-- Content Row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Kategori Listesi</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="categoryTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Kategori Adı</th>
+                                <th>Açıklama</th>
+                                <th>Durum</th>
+                                <th>Oluşturulma Tarihi</th>
+                                <th>İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody id="categoryTableBody">
+                            <!-- Kategoriler burada listelenecek -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Kategori Ekle Modal -->
+<div class="modal fade" id="addCategoryModal" tabindex="-1" role="dialog" aria-labelledby="addCategoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addCategoryModalLabel">Yeni Kategori Ekle</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="addCategoryForm">
+                    <div class="form-group">
+                        <label for="categoryName">Kategori Adı</label>
+                        <input type="text" class="form-control" id="categoryName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="categoryDescription">Açıklama</label>
+                        <textarea class="form-control" id="categoryDescription" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+                <button class="btn btn-primary" id="btnSaveCategory">Kaydet</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Kategori Düzenle Modal -->
+<div class="modal fade" id="editCategoryModal" tabindex="-1" role="dialog" aria-labelledby="editCategoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editCategoryModalLabel">Kategori Düzenle</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editCategoryForm">
+                    <input type="hidden" id="editCategoryId">
+                    <div class="form-group">
+                        <label for="editCategoryName">Kategori Adı</label>
+                        <input type="text" class="form-control" id="editCategoryName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="editCategoryDescription">Açıklama</label>
+                        <textarea class="form-control" id="editCategoryDescription" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="editCategoryIsActive">
+                            <label class="custom-control-label" for="editCategoryIsActive">Aktif</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+                <button class="btn btn-primary" id="btnUpdateCategory">Güncelle</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Kategori Silme Modal -->
+<div class="modal fade" id="deleteCategoryModal" tabindex="-1" role="dialog" aria-labelledby="deleteCategoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteCategoryModalLabel">Kategori Sil</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Bu kategoriyi silmek istediğinize emin misiniz?</p>
+                <p>Kategori Adı: <span id="deleteCategoryName"></span></p>
+                <input type="hidden" id="deleteCategoryId">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+                <button class="btn btn-danger" id="btnDeleteCategory">Sil</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var apiBaseUrl = "@ViewBag.ApiBaseURL";
+            var token = "@ViewBag.Token";
+
+            // Kategorileri getir
+            function getCategories() {
+                $.ajax({
+                    url: apiBaseUrl + "/Category",
+                    type: "GET",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function (data) {
+                        displayCategories(data);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Kategori verileri alınırken hata oluştu:", error);
+                        let errorMessage = "Kategoriler alınırken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            }
+
+            // Kategorileri tabloya ekle
+            function displayCategories(categories) {
+                var tbody = $("#categoryTableBody");
+                tbody.empty();
+
+                if (categories && categories.length > 0) {
+                    categories.forEach(function (category) {
+                        var statusBadge = category.isActive 
+                            ? '<span class="badge badge-success">Aktif</span>' 
+                            : '<span class="badge badge-danger">Pasif</span>';
+                            
+                        var row = `<tr>
+                            <td>${category.id}</td>
+                            <td>${category.name}</td>
+                            <td>${category.description || ""}</td>
+                            <td>${statusBadge}</td>
+                            <td>${new Date(category.createdDate).toLocaleDateString('tr-TR')}</td>
+                            <td>
+                                <button class="btn btn-primary btn-sm btn-edit" data-id="${category.id}">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn btn-danger btn-sm btn-delete" data-id="${category.id}">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>`;
+                        
+                        tbody.append(row);
+                    });
+                    
+                    // Düzenleme ve silme butonu olaylarını ekle
+                    attachButtonEvents();
+                } else {
+                    tbody.append("<tr><td colspan='6' class='text-center'>Kategori bulunamadı</td></tr>");
+                }
+            }
+            
+            // Kategori ekle
+            $("#btnSaveCategory").click(function() {
+                var categoryData = {
+                    name: $("#categoryName").val(),
+                    description: $("#categoryDescription").val()
+                };
+                
+                $.ajax({
+                    url: apiBaseUrl + "/Category",
+                    type: "POST",
+                    data: JSON.stringify(categoryData),
+                    contentType: "application/json",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function(response) {
+                        $("#addCategoryModal").modal("hide");
+                        $("#addCategoryForm")[0].reset();
+                        getCategories();
+                        Toast.success("Kategori başarıyla eklendi.");
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Kategori eklenirken hata oluştu:", error);
+                        let errorMessage = "Kategori eklenirken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            });
+            
+            // Buton olaylarını ekle
+            function attachButtonEvents() {
+                // Düzenle butonuna tıklama
+                $(".btn-edit").click(function() {
+                    var categoryId = $(this).data("id");
+                    
+                    $.ajax({
+                        url: apiBaseUrl + "/Category/" + categoryId,
+                        type: "GET",
+                        headers: {
+                            "Authorization": "Bearer " + token
+                        },
+                        success: function(category) {
+                            $("#editCategoryId").val(category.id);
+                            $("#editCategoryName").val(category.name);
+                            $("#editCategoryDescription").val(category.description);
+                            $("#editCategoryIsActive").prop("checked", category.isActive);
+                            
+                            $("#editCategoryModal").modal("show");
+                        },
+                        error: function(xhr, status, error) {
+                            console.error("Kategori bilgileri alınırken hata oluştu:", error);
+                            Toast.error("Kategori bilgileri alınırken bir hata oluştu.");
+                        }
+                    });
+                });
+                
+                // Sil butonuna tıklama
+                $(".btn-delete").click(function() {
+                    var categoryId = $(this).data("id");
+                    var categoryName = $(this).closest("tr").find("td:eq(1)").text();
+                    
+                    $("#deleteCategoryName").text(categoryName);
+                    $("#deleteCategoryId").val(categoryId);
+                    $("#deleteCategoryModal").modal("show");
+                });
+            }
+            
+            // Kategori güncelle
+            $("#btnUpdateCategory").click(function() {
+                var categoryId = $("#editCategoryId").val();
+                var categoryData = {
+                    name: $("#editCategoryName").val(),
+                    description: $("#editCategoryDescription").val(),
+                    isActive: $("#editCategoryIsActive").is(":checked")
+                };
+                
+                $.ajax({
+                    url: apiBaseUrl + "/Category/" + categoryId,
+                    type: "PUT",
+                    data: JSON.stringify(categoryData),
+                    contentType: "application/json",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function(response) {
+                        $("#editCategoryModal").modal("hide");
+                        getCategories();
+                        Toast.success("Kategori başarıyla güncellendi.");
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Kategori güncellenirken hata oluştu:", error);
+                        Toast.error("Kategori güncellenirken bir hata oluştu.");
+                    }
+                });
+            });
+            
+            // Kategori silme işlemi
+            $("#btnDeleteCategory").click(function() {
+                var categoryId = $("#deleteCategoryId").val();
+                
+                $.ajax({
+                    url: apiBaseUrl + "/Category/" + categoryId,
+                    type: "DELETE",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function(response) {
+                        $("#deleteCategoryModal").modal("hide");
+                        getCategories();
+                        Toast.success("Kategori başarıyla silindi.");
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Kategori silinirken hata oluştu:", error);
+                        let errorMessage = "Kategori silinirken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            });
+            
+            // Sayfa yüklendiğinde kategorileri getir
+            getCategories();
+        });
+    </script>
+} 

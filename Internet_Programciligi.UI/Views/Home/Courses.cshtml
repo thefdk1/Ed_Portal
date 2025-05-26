@@ -1,0 +1,226 @@
+@{
+    ViewData["Title"] = "Kurslar";
+}
+
+<!-- Banner Section Start -->
+<section class="page-header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-8">
+                <div class="title-block">
+                    <h1>Kurslar</h1>
+                    <ul class="header-bradcrumb justify-content-center">
+                        <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                        <li class="active" aria-current="page">Kurslar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Course Section Start -->
+<section class="section-padding page">
+    <div class="course-top-wrap">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <p class="showing-results" id="courseCount">Kurslar yükleniyor...</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <select class="form-control" id="categoryFilter">
+                            <option value="">Tüm Kategoriler</option>
+                            <!-- Kategoriler dinamik olarak eklenecek -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="topbar-search">
+                        <form method="get" action="#">
+                            <input type="text" id="courseSearch" placeholder="Kurs ara..." class="form-control">
+                            <label><i class="fa fa-search"></i></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" id="courseContainer">
+            <!-- Kurslar dinamik olarak burada listelenecek -->
+            <div class="col-12 text-center">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Yükleniyor...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+            var apiBaseUrl = "@ViewBag.ApiBaseURL";
+            var allCourses = []; // Tüm kursları saklayacak dizi
+            
+            // Sayfa yüklendiğinde kategorileri ve kursları getir
+            getCategories();
+            getCourses();
+            
+            // Kategorileri getiren fonksiyon
+            function getCategories() {
+                $.ajax({
+                    url: apiBaseUrl + "/Category",
+                    type: "GET",
+                    success: function(categories) {
+                        let categoryOptions = '<option value="">Tüm Kategoriler</option>';
+                        categories.forEach(function(category) {
+                            if (category.isActive) {
+                                categoryOptions += `<option value="${category.id}">${category.name}</option>`;
+                            }
+                        });
+                        $("#categoryFilter").html(categoryOptions);
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Kategoriler yüklenirken hata oluştu:", error);
+                    }
+                });
+            }
+            
+            // Kategori değiştiğinde filtreleme yap
+            $("#categoryFilter").on("change", function() {
+                const categoryId = $(this).val();
+                const searchText = $("#courseSearch").val().toLowerCase();
+                filterCourses(searchText, categoryId);
+            });
+            
+            // Arama kutusunda yazı değiştiğinde filtreleme yap
+            $("#courseSearch").on("keyup", function() {
+                const searchText = $(this).val().toLowerCase();
+                const categoryId = $("#categoryFilter").val();
+                filterCourses(searchText, categoryId);
+            });
+
+            // Kursları filtreleyen fonksiyon
+            function filterCourses(searchText, categoryId) {
+                let filteredCourses = allCourses;
+                
+                // Metin araması yap
+                if (searchText) {
+                    filteredCourses = filteredCourses.filter(course => 
+                        course.name.toLowerCase().includes(searchText) || 
+                        (course.description && course.description.toLowerCase().includes(searchText))
+                    );
+                }
+                
+                // Kategori filtresi uygula
+                if (categoryId) {
+                    filteredCourses = filteredCourses.filter(course => course.categoryId == categoryId);
+                }
+                
+                displayCourses(filteredCourses);
+                updateCourseCount(filteredCourses.length);
+            }
+
+            // Kurs sayısını güncelleyen fonksiyon
+            function updateCourseCount(count) {
+                $("#courseCount").text(`${count} kurs gösteriliyor`);
+            }
+            
+            // Kursları getiren fonksiyon
+            function getCourses() {
+                $.ajax({
+                    url: apiBaseUrl + "/Course",
+                    type: "GET",
+                    success: function(response) {
+                        allCourses = response.filter(course => course.isActive);
+                        displayCourses(allCourses);
+                        updateCourseCount(allCourses.length);
+                    },
+                    error: function(xhr, status, error) {
+                        let errorMessage = "Kurslar yüklenirken bir hata oluştu";
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        $("#courseContainer").html(`
+                            <div class="col-12">
+                                <div class="alert alert-danger">
+                                    ${errorMessage}
+                                </div>
+                            </div>
+                        `);
+                        $("#courseCount").text("0 kurs gösteriliyor");
+                    }
+                });
+            }
+            
+            // Kursları görüntüleyen fonksiyon
+            function displayCourses(courses) {
+                let courseHtml = '';
+                
+                if (courses && courses.length > 0) {
+                    courses.forEach(function(course) {
+                        // Resim URL'sini ayarla
+                        let imageUrl = '/images/course-default.jpg';
+                        if (course.imageUrl) {
+                            if (course.imageUrl.startsWith('http')) {
+                                imageUrl = course.imageUrl;
+                            } else {
+                                const baseUrl = apiBaseUrl.replace('/api', '');
+                                imageUrl = baseUrl + course.imageUrl;
+                            }
+                        }
+
+                        // Ders sayısını kontrol et ve logla
+                        console.log("Kurs:", course.name, "Ham veri:", course);
+                        const lessonCount = course.lessonsCount || course.lessonCount || 0;
+                        console.log("Hesaplanan ders sayısı:", lessonCount);
+                        
+                        courseHtml += `
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="course-style-5 bg-white">
+                                    <div class="course-header">
+                                        <div class="course-thumb">
+                                            <img src="${imageUrl}" alt="${course.name}" class="img-fluid">
+                                            <div class="course-price">${course.price ? course.price + ' ₺' : 'Ücretsiz'}</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="course-content">
+                                        <div class="course-meta meta-style-1">
+                                            <span class="lessons"><i class="far fa-play-circle me-2"></i>${lessonCount} Ders</span>
+                                            <span class="label">${course.categoryName || 'Kategorisiz'}</span>
+                                        </div>
+                                        <h4><a href="/Course/Details/${course.id}">${course.name}</a></h4>
+                                        <div class="course-footer mt-20 d-flex align-items-center justify-content-between">
+                                            <span class="students"><i class="far fa-user-alt me-2"></i>${course.studentCount} Öğrenci</span>
+                                            <a href="/Course/Details/${course.id}" class="rounded-btn"><i class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    });
+                } else {
+                    courseHtml = `
+                        <div class="col-12">
+                            <div class="alert alert-info">
+                                Arama kriterlerine uygun kurs bulunamadı.
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                $("#courseContainer").html(courseHtml);
+            }
+        });
+    </script>
+} 

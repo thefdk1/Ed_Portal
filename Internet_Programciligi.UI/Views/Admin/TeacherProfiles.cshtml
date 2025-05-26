@@ -1,0 +1,665 @@
+@{
+    ViewData["Title"] = "Öğretmen Yönetimi";
+    Layout = "_LayoutAdmin";
+}
+
+<style>
+    /* Kart boyutlarını düzenle */
+    .teacher-card {
+        height: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    /* Resim boyutlarını düzenle */
+    .teacher-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    /* Önizleme resmi için stil */
+    #newTeacherImagePreviewImg,
+    #teacherImagePreviewImg {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+</style>
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Öğretmen Yönetimi</h1>
+    <button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" data-toggle="modal" data-target="#addTeacherModal">
+        <i class="fas fa-plus fa-sm text-white-50"></i> Yeni Öğretmen
+    </button>
+</div>
+
+<!-- Content Row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Öğretmen Listesi</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="teacherTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Öğretmen Adı</th>
+                                <th>Kategori</th>
+                                <th>Biyografi</th>
+                                <th>Oluşturulma Tarihi</th>
+                                <th>İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody id="teacherTableBody">
+                            <!-- Öğretmenler burada listelenecek -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Öğretmen Ekle Modal -->
+<div class="modal fade" id="addTeacherModal" tabindex="-1" role="dialog" aria-labelledby="addTeacherModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addTeacherModalLabel">Yeni Öğretmen Ekle</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="addTeacherForm">
+                    <div class="form-group">
+                        <label for="teacherName">Öğretmen Adı</label>
+                        <input type="text" class="form-control" id="teacherName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="biography">Biyografi</label>
+                        <textarea class="form-control" id="biography" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="teacherCategory">Kategori</label>
+                        <select class="form-control" id="teacherCategory">
+                            <!-- Kategoriler burada listelenecek -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="profileImage">Profil Fotoğrafı</label>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="profileImage" accept="image/*">
+                            <label class="custom-file-label" for="profileImage">Dosya Seç...</label>
+                        </div>
+                        <small class="form-text text-muted">Desteklenen formatlar: JPG, PNG, GIF. Max boyut: 5MB</small>
+                        <div id="newTeacherImagePreview" class="mt-2 d-none">
+                            <img src="" id="newTeacherImagePreviewImg" class="img-fluid">
+                            <button type="button" class="btn btn-sm btn-outline-danger mt-1" id="removeNewImageBtn">Resmi Kaldır</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">İptal</button>
+                <button type="button" class="btn btn-primary" onclick="addTeacher()">Kaydet</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Öğretmen Düzenle Modal -->
+<div class="modal fade" id="editTeacherModal" tabindex="-1" role="dialog" aria-labelledby="editTeacherModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editTeacherModalLabel">Öğretmen Düzenle</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editTeacherForm">
+                    <input type="hidden" id="editTeacherId">
+                    <input type="hidden" id="currentImageUrl">
+                    <div class="form-group">
+                        <label for="editTeacherName">Öğretmen Adı</label>
+                        <input type="text" class="form-control" id="editTeacherName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="editBiography">Biyografi</label>
+                        <textarea class="form-control" id="editBiography" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="editTeacherCategory">Kategori</label>
+                        <select class="form-control" id="editTeacherCategory">
+                            <!-- Kategoriler burada listelenecek -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Mevcut Profil Resmi</label>
+                        <div id="teacherImagePreview" class="mt-2">
+                            <img src="" id="teacherImagePreviewImg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="editProfileImage">Yeni Profil Resmi</label>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="editProfileImage" accept="image/*">
+                            <label class="custom-file-label" for="editProfileImage">Dosya Seç...</label>
+                        </div>
+                        <small class="form-text text-muted">Desteklenen formatlar: JPG, PNG, GIF. Max boyut: 5MB</small>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">İptal</button>
+                <button type="button" class="btn btn-primary" onclick="updateTeacher()">Güncelle</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Öğretmen Silme Modal -->
+<div class="modal fade" id="deleteTeacherModal" tabindex="-1" role="dialog" aria-labelledby="deleteTeacherModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteTeacherModalLabel">Öğretmen Sil</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Bu öğretmeni silmek istediğinize emin misiniz?</p>
+                <p>Öğretmen Adı: <span id="deleteTeacherName"></span></p>
+                <input type="hidden" id="deleteTeacherId">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+                <button class="btn btn-danger" id="btnDeleteTeacher">Sil</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Global değişkenleri en üstte tanımla
+        const apiBaseUrl = "@ViewBag.ApiBaseURL";
+        const token = "@ViewBag.Token";
+        let categories = [];
+
+        // Debug bilgisi
+        console.log("API URL:", apiBaseUrl);
+        console.log("Token mevcut:", token ? "Evet" : "Hayır");
+
+        $(document).ready(function() {
+            // Dosya seçildiğinde önizleme göster
+            $("#profileImage, #editProfileImage").change(function() {
+                var file = this.files[0];
+                var previewImg = $(this).attr('id') === 'profileImage' ?
+                    $('#newTeacherImagePreviewImg') : $('#teacherImagePreviewImg');
+                var previewContainer = $(this).attr('id') === 'profileImage' ?
+                    $('#newTeacherImagePreview') : $('#teacherImagePreview');
+                var fileLabel = $(this).siblings('.custom-file-label');
+
+                if (file) {
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        previewImg.attr('src', e.target.result);
+                        previewContainer.removeClass('d-none');
+                        fileLabel.text(file.name);
+                    };
+                    reader.readAsDataURL(file);
+                } else {
+                    if ($(this).attr('id') === 'profileImage') {
+                        // Yeni öğretmen için
+                        previewContainer.addClass('d-none');
+                        previewImg.attr('src', '');
+                        fileLabel.text('Dosya Seç...');
+                    }
+                }
+            });
+
+            // Resmi kaldır butonları
+            $("#removeNewImageBtn, #removeImageBtn").click(function(e) {
+                e.preventDefault();
+                var targetInput = $(this).closest('.form-group').find('input[type="file"]');
+                var targetPreview = $(this).closest('.form-group').find('.mt-2');
+                var targetImg = targetPreview.find('img');
+                var fileLabel = targetInput.siblings('.custom-file-label');
+
+                targetInput.val('');
+                if (targetInput.attr('id') === 'profileImage') {
+                    // Yeni öğretmen için
+                    targetPreview.addClass('d-none');
+                    targetImg.attr('src', '');
+                }
+                fileLabel.text('Dosya Seç...');
+            });
+
+            // Modal açıldığında form sıfırlama
+            $('#addTeacherModal').on('show.bs.modal', function() {
+                $('#addTeacherForm')[0].reset();
+                $('#newTeacherImagePreview').addClass('d-none');
+                $('#newTeacherImagePreviewImg').attr('src', '');
+                $('.custom-file-label').text('Dosya Seç...');
+            });
+
+            // Sayfa yüklendiğinde kategorileri ve öğretmenleri getir
+            getCategories();
+            loadTeachers();
+        });
+
+        function getCategories() {
+            $.ajax({
+                url: apiBaseUrl + "/Category",
+                type: "GET",
+                headers: {
+                    "Authorization": "Bearer " + token
+                },
+                success: function(data) {
+                    console.log("Kategoriler başarıyla alındı:", data);
+                    categories = data;
+                    populateCategoryDropdowns();
+                },
+                error: function(xhr, status, error) {
+                    console.error("Kategori verileri alınırken hata:", error);
+                    console.log("XHR:", xhr.responseText);
+                }
+            });
+        }
+
+        // Kategori dropdown'larını doldur
+        function populateCategoryDropdowns() {
+            var addSelect = $('#teacherCategory');
+            var editSelect = $('#editTeacherCategory');
+
+            addSelect.empty();
+            editSelect.empty();
+
+            addSelect.append('<option value="">Kategori Seçiniz</option>');
+            editSelect.append('<option value="">Kategori Seçiniz</option>');
+
+            if (categories && categories.length > 0) {
+                categories.forEach(function(category) {
+                    if (category.isActive) {
+                        addSelect.append(`<option value="${category.id}">${category.name}</option>`);
+                        editSelect.append(`<option value="${category.id}">${category.name}</option>`);
+                    }
+                });
+            }
+        }
+
+        // Öğretmen ekleme
+        function addTeacher() {
+            try {
+                const name = $('#teacherName').val().trim();
+                const biography = $('#biography').val().trim();
+                const categoryId = $('#teacherCategory').val() ? parseInt($('#teacherCategory').val()) : null;
+                const profileImage = $('#profileImage')[0].files[0];
+
+                if (!name) {
+                    Toast.warning('Öğretmen adı boş olamaz!');
+                    return;
+                }
+
+                if (profileImage) {
+                    uploadImageThenSaveTeacher();
+                } else {
+                    saveTeacherWithJson(null);
+                }
+
+                function uploadImageThenSaveTeacher() {
+                    const formData = new FormData();
+                    formData.append('image', profileImage);
+                    // Yeni öğretmen eklerken teacherId gönderilmeyecek
+
+                    console.log('Yeni öğretmen için resim yükleniyor');
+                    console.log('FormData içeriği:', {
+                        image: profileImage ? profileImage.name : 'yok'
+                    });
+
+                    $.ajax({
+                        url: apiBaseUrl + "/TeacherProfile/UploadImage",
+                        type: 'POST',
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        headers: {
+                            'Authorization': 'Bearer ' + token
+                        },
+                        success: function(response) {
+                            console.log('Resim yükleme başarılı:', response);
+                            saveTeacherWithJson(response.imageUrl);
+                        },
+                        error: function(xhr, status, error) {
+                            console.error('Resim yükleme hatası:', error);
+                            console.log('XHR yanıtı:', xhr.responseText);
+                            Toast.error('Resim yüklenirken bir hata oluştu!');
+                        }
+                    });
+                }
+
+                function saveTeacherWithJson(imageUrl) {
+                    const teacherData = {
+                        name: name,
+                        biography: biography || '',
+                        profilePictureUrl: imageUrl,
+                        categoryId: categoryId
+                    };
+
+                    console.log('Gönderilecek öğretmen verisi:', teacherData);
+
+                    $.ajax({
+                        url: apiBaseUrl + "/TeacherProfile",
+                        type: 'POST',
+                        data: JSON.stringify(teacherData),
+                        contentType: 'application/json',
+                        headers: {
+                            'Authorization': 'Bearer ' + token
+                        },
+                        success: function(response) {
+                            console.log('Öğretmen ekleme başarılı:', response);
+                            Toast.success('Öğretmen başarıyla eklendi!');
+                            $('#addTeacherForm')[0].reset();
+                            $('#newTeacherImagePreview').addClass('d-none');
+                            $('#addTeacherModal').modal('hide');
+                            loadTeachers();
+                        },
+                        error: function(xhr, status, error) {
+                            console.error('Öğretmen eklenirken hata:', error);
+                            console.log('XHR yanıtı:', xhr.responseText);
+                            Toast.error('Öğretmen eklenirken bir hata oluştu!');
+                        }
+                    });
+                }
+            } catch (error) {
+                console.error('İşlem sırasında hata:', error);
+                Toast.error('İşlem sırasında bir hata oluştu!');
+            }
+        }
+
+        // Öğretmenleri listele
+        function loadTeachers() {
+            console.log('Öğretmenler yükleniyor...');
+            console.log('API URL:', apiBaseUrl + '/TeacherProfile');
+            
+            // Önce mevcut DataTable'ı temizle
+            try {
+                if ($.fn.dataTable.isDataTable('#teacherTable')) {
+                    $('#teacherTable').DataTable().destroy();
+                }
+            } catch (error) {
+                console.error('DataTable destroy hatası:', error);
+            }
+            
+            $.ajax({
+                url: apiBaseUrl + '/TeacherProfile',
+                type: 'GET',
+                headers: {
+                    'Authorization': 'Bearer ' + token
+                },
+                success: function(response) {
+                    console.log('Öğretmen verileri başarıyla alındı:', response);
+                    var tbody = $('#teacherTableBody');
+                    tbody.empty();
+
+                    // Tabloyu doldur
+                    if (response && response.length > 0) {
+                        response.forEach(function(teacher) {
+                            var row = `<tr>
+                                <td>${teacher.id}</td>
+                                <td>${teacher.name || teacher.fullName || 'İsimsiz'}</td>
+                                <td>${teacher.category ? teacher.category.name : '-'}</td>
+                                <td>${teacher.biography || '-'}</td>
+                                <td>${new Date(teacher.createdDate).toLocaleDateString('tr-TR')}</td>
+                                <td>
+                                    <button class="btn btn-warning btn-sm" onclick="editTeacher(${teacher.id})">
+                                        <i class="fas fa-edit"></i>
+                                    </button>
+                                    <button class="btn btn-danger btn-sm btn-delete" data-id="${teacher.id}" data-name="${teacher.name || teacher.fullName || 'İsimsiz'}">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>`;
+                            tbody.append(row);
+                        });
+                    } else {
+                        tbody.append('<tr><td colspan="6" class="text-center">Öğretmen bulunamadı</td></tr>');
+                    }
+
+                    // Silme butonu olaylarını ekle
+                    attachDeleteButtonEvents();
+
+                    // DataTable'ı yeniden başlat
+                    setTimeout(function() {
+                        try {
+                            $('#teacherTable').DataTable({
+                                "destroy": true,
+                                "responsive": true,
+                                "autoWidth": false,
+                                "language": {
+                                    "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
+                                },
+                                "order": [[0, "desc"]]
+                            });
+                            console.log('DataTable başarıyla başlatıldı');
+                        } catch (error) {
+                            console.error('DataTable başlatılırken hata:', error);
+                        }
+                    }, 100);
+                },
+                error: function(xhr, status, error) {
+                    console.error('Öğretmenler yüklenirken hata:', error);
+                    console.log('XHR yanıtı:', xhr.responseText);
+                    Toast.error('Öğretmenler yüklenirken bir hata oluştu!');
+                    
+                    var tbody = $('#teacherTableBody');
+                    tbody.empty();
+                    tbody.append('<tr><td colspan="6" class="text-center text-danger">Veriler yüklenirken bir hata oluştu!</td></tr>');
+                }
+            });
+        }
+
+        // Öğretmen düzenleme
+        function editTeacher(id) {
+            $.ajax({
+                url: `${apiBaseUrl}/TeacherProfile/${id}`,
+                type: 'GET',
+                headers: {
+                    'Authorization': 'Bearer ' + token
+                },
+                success: function(teacher) {
+                    console.log("Düzenlenecek öğretmen verisi:", teacher);
+                    $('#editTeacherId').val(teacher.id);
+                    $('#editTeacherName').val(teacher.name);
+                    $('#editBiography').val(teacher.biography);
+                    $('#editTeacherCategory').val(teacher.categoryId);
+
+                    // Mevcut resim URL'sini hidden input'a kaydet
+                    $("#currentImageUrl").val(teacher.profilePictureUrl || '');
+
+                    if (teacher.profilePictureUrl) {
+                        let imageUrl = teacher.profilePictureUrl;
+                        if (!imageUrl.startsWith('/')) {
+                            imageUrl = '/' + imageUrl;
+                        }
+                        const baseUrl = apiBaseUrl.replace('/api', '');
+                        imageUrl = baseUrl + imageUrl;
+                        
+                        console.log("Oluşturulan resim URL'i:", imageUrl);
+                        $("#teacherImagePreviewImg").attr("src", imageUrl);
+                        $("#teacherImagePreview").removeClass("d-none");
+                        $(".custom-file-label").text(teacher.profilePictureUrl.split('/').pop());
+                    } else {
+                        $("#teacherImagePreviewImg").attr("src", "/images/default-profile.jpg");
+                        $("#teacherImagePreview").removeClass("d-none");
+                        $(".custom-file-label").text("Dosya Seç...");
+                    }
+
+                    $('#editTeacherModal').modal('show');
+                },
+                error: function(xhr, status, error) {
+                    console.error('Öğretmen bilgileri alınırken hata:', error);
+                    Toast.error('Öğretmen bilgileri alınırken bir hata oluştu!');
+                }
+            });
+        }
+
+        // Öğretmen güncelleme
+        function updateTeacher() {
+            const id = $('#editTeacherId').val();
+            const name = $('#editTeacherName').val().trim();
+            const biography = $('#editBiography').val().trim();
+            const categoryId = $('#editTeacherCategory').val() ? parseInt($('#editTeacherCategory').val()) : null;
+            const profileImage = $('#editProfileImage')[0].files[0];
+            const currentImageUrl = $("#currentImageUrl").val();
+
+            console.log("Güncelleme başlıyor - Öğretmen ID:", id);
+            console.log("Mevcut resim URL:", currentImageUrl);
+            console.log("Yeni resim seçildi mi:", profileImage ? "Evet" : "Hayır");
+
+            if (!name) {
+                Toast.warning('Öğretmen adı boş olamaz!');
+                return;
+            }
+
+            if (profileImage) {
+                uploadImageThenUpdateTeacher();
+            } else {
+                updateTeacherWithJson(null); // Yeni resim yoksa null gönder
+            }
+
+            function uploadImageThenUpdateTeacher() {
+                const formData = new FormData();
+                formData.append('image', profileImage);
+                formData.append('teacherId', id); // Öğretmen ID'sini gönder
+
+                console.log("Resim yükleme başlıyor - Öğretmen ID:", id);
+                console.log("FormData içeriği:", {
+                    image: profileImage ? profileImage.name : 'yok',
+                    teacherId: id
+                });
+
+                $.ajax({
+                    url: apiBaseUrl + '/TeacherProfile/UploadImage',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    headers: {
+                        'Authorization': 'Bearer ' + token
+                    },
+                    success: function(response) {
+                        console.log("Yeni resim yüklendi - Öğretmen ID:", id);
+                        console.log("Yüklenen resim URL:", response.imageUrl);
+                        updateTeacherWithJson(response.imageUrl);
+                    },
+                    error: function(xhr, status, error) {
+                        console.error('Resim yükleme hatası:', error);
+                        console.error('Öğretmen ID:', id);
+                        console.error('XHR yanıtı:', xhr.responseText);
+                        Toast.error('Resim yüklenirken bir hata oluştu!');
+                    }
+                });
+            }
+
+            function updateTeacherWithJson(newImageUrl) {
+                // Resim URL'sini belirle
+                let finalImageUrl = newImageUrl;
+                if (!finalImageUrl && currentImageUrl) {
+                    finalImageUrl = currentImageUrl;
+                }
+
+                console.log("Güncelleme öncesi son kontrol:");
+                console.log("- Öğretmen ID:", id);
+                console.log("- Yeni resim URL:", newImageUrl);
+                console.log("- Mevcut resim URL:", currentImageUrl);
+                console.log("- Kullanılacak resim URL:", finalImageUrl);
+
+                const teacherData = {
+                    name: name,
+                    biography: biography || '',
+                    categoryId: categoryId,
+                    profilePictureUrl: finalImageUrl
+                };
+
+                console.log('Güncellenecek öğretmen verisi:', teacherData);
+
+                $.ajax({
+                    url: `${apiBaseUrl}/TeacherProfile/${id}`,
+                    type: 'PUT',
+                    data: JSON.stringify(teacherData),
+                    contentType: 'application/json',
+                    headers: {
+                        'Authorization': 'Bearer ' + token
+                    },
+                    success: function(response) {
+                        console.log("Güncelleme başarılı - Öğretmen ID:", id);
+                        console.log("Sunucu yanıtı:", response);
+                        Toast.success('Öğretmen başarıyla güncellendi!');
+                        $('#editTeacherModal').modal('hide');
+                        loadTeachers();
+                    },
+                    error: function(xhr, status, error) {
+                        console.error('Öğretmen güncellenirken hata:', error);
+                        console.error('Öğretmen ID:', id);
+                        console.error('XHR yanıtı:', xhr.responseText);
+                        Toast.error('Öğretmen güncellenirken bir hata oluştu!');
+                    }
+                });
+            }
+        }
+
+        // Silme butonu olaylarını ekle
+        function attachDeleteButtonEvents() {
+            $(".btn-delete").click(function() {
+                var teacherId = $(this).data("id");
+                var teacherName = $(this).data("name");
+                
+                $("#deleteTeacherName").text(teacherName);
+                $("#deleteTeacherId").val(teacherId);
+                $("#deleteTeacherModal").modal("show");
+            });
+        }
+
+        // Öğretmen silme işlemi
+        $("#btnDeleteTeacher").click(function() {
+            var teacherId = $("#deleteTeacherId").val();
+            
+            $.ajax({
+                url: `${apiBaseUrl}/TeacherProfile/${teacherId}`,
+                type: 'DELETE',
+                headers: {
+                    'Authorization': 'Bearer ' + token
+                },
+                success: function() {
+                    $("#deleteTeacherModal").modal("hide");
+                    Toast.success('Öğretmen başarıyla silindi!');
+                    loadTeachers();
+                },
+                error: function(xhr, status, error) {
+                    console.error('Öğretmen silinirken hata:', error);
+                    let errorMessage = "Öğretmen silinirken bir hata oluştu!";
+                    
+                    try {
+                        const response = JSON.parse(xhr.responseText);
+                        if (response && response.message) {
+                            errorMessage = response.message;
+                        }
+                    } catch (e) {}
+                    
+                    Toast.error(errorMessage);
+                }
+            });
+        });
+    </script>
+}

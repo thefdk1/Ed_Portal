@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Internet_Programciligi\\Internet_Programciligi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Internet_Programciligi.UI\\Internet_Programciligi.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

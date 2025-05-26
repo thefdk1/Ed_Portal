@@ -1,0 +1,331 @@
+@{
+    ViewData["Title"] = "Kullanıcı Yönetimi";
+    Layout = "_LayoutAdmin";
+}
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Kullanıcı Yönetimi</h1>
+</div>
+
+<!-- Content Row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Kullanıcı Listesi</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="userTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Kullanıcı Adı</th>
+                                <th>E-posta</th>
+                                <th>Ad Soyad</th>
+                                <th>Roller</th>
+                                <th>İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody id="userTableBody">
+                            <!-- Kullanıcı verileri burada listelenecek -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Rol Değiştirme Modal -->
+<div class="modal fade" id="changeRoleModal" tabindex="-1" role="dialog" aria-labelledby="changeRoleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="changeRoleModalLabel">Kullanıcı Rolünü Değiştir</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="changeRoleForm">
+                    <input type="hidden" id="userId">
+                    <div class="form-group">
+                        <label for="roleSelect">Rol Seçin:</label>
+                        <select class="form-control" id="roleSelect">
+                            <option value="User">Öğrenci</option>
+                            <option value="Teacher">Öğretmen</option>
+                            <option value="Admin">Admin</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+                <button class="btn btn-primary" id="btnSaveRole">Kaydet</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Kullanıcı Silme Onay Modal -->
+<div class="modal fade" id="deleteUserModal" tabindex="-1" role="dialog" aria-labelledby="deleteUserModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteUserModalLabel">Kullanıcıyı Sil</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Bu kullanıcıyı silmek istediğinize emin misiniz?</p>
+                <p>Kullanıcı adı: <span id="deleteUserName"></span></p>
+                <input type="hidden" id="deleteUserId">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+                <button class="btn btn-danger" id="btnDeleteUser">Sil</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var apiBaseUrl = "@ViewBag.ApiBaseURL";
+            var token = "@ViewBag.Token";
+            
+            // Toast bildirim sistemi
+            var Toast = {
+                success: function(message) {
+                    showToast(message, 'success');
+                },
+                error: function(message) {
+                    showToast(message, 'error');
+                },
+                warning: function(message) {
+                    showToast(message, 'warning');
+                },
+                info: function(message) {
+                    showToast(message, 'info');
+                }
+            };
+            
+            function showToast(message, type) {
+                var toastContainer = $('.toast-container');
+                if (toastContainer.length === 0) {
+                    $('body').append('<div class="toast-container"></div>');
+                    toastContainer = $('.toast-container');
+                }
+                
+                var toastId = 'toast-' + Date.now();
+                var toast = `
+                    <div class="toast toast-${type}" role="alert" id="${toastId}">
+                        <div class="toast-body">
+                            ${message}
+                        </div>
+                    </div>
+                `;
+                
+                toastContainer.append(toast);
+                var toastElement = $('#' + toastId);
+                
+                // 3 saniye sonra kaldır
+                setTimeout(function() {
+                    toastElement.fadeOut(500, function() {
+                        $(this).remove();
+                    });
+                }, 3000);
+            }
+
+            // Kullanıcıları getir
+            function getUsers() {
+                $.ajax({
+                    url: apiBaseUrl + "/User/users",
+                    type: "GET",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function (data) {
+                        displayUsers(data);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Kullanıcı verileri alınırken hata oluştu:", error);
+                        let errorMessage = "Kullanıcı verileri alınırken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            }
+
+            // Kullanıcıları tabloya ekle
+            function displayUsers(users) {
+                var tbody = $("#userTableBody");
+                tbody.empty();
+
+                if (users && users.length > 0) {
+                    users.forEach(function (user) {
+                        var roleText = "";
+                        if (user.roles && user.roles.length > 0) {
+                            user.roles.forEach(function(role) {
+                                switch(role) {
+                                    case "User":
+                                        roleText += '<span class="badge badge-secondary me-1">Öğrenci</span>';
+                                        break;
+                                    case "Admin":
+                                        roleText += '<span class="badge badge-danger me-1">Admin</span>';
+                                        break;
+                                    case "Teacher":
+                                        roleText += '<span class="badge badge-info me-1">Öğretmen</span>';
+                                        break;
+                                    default:
+                                        roleText += '<span class="badge badge-secondary me-1">' + role + '</span>';
+                                }
+                            });
+                        } else {
+                            roleText = '<span class="badge badge-secondary">Öğrenci</span>';
+                        }
+                        
+                        var fullName = "";
+                        
+                        if(user.firstName && user.lastName) {
+                            fullName = user.firstName + " " + user.lastName;
+                        } else if(user.firstName) {
+                            fullName = user.firstName;
+                        } else if(user.lastName) {
+                            fullName = user.lastName;
+                        }
+                        
+                        var row = `<tr>
+                            <td>${user.userName}</td>
+                            <td>${user.email}</td>
+                            <td>${fullName}</td>
+                            <td>${roleText}</td>
+                            <td>
+                                <button class="btn btn-info btn-sm btn-change-role" data-id="${user.id}" data-username="${user.userName}">
+                                    <i class="fas fa-user-tag"></i>
+                                </button>
+                                <button class="btn btn-danger btn-sm btn-delete-user" data-id="${user.id}" data-username="${user.userName}">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>`;
+                        
+                        tbody.append(row);
+                    });
+                    
+                    // Rol değiştirme butonları
+                    $(".btn-change-role").click(function() {
+                        var userId = $(this).data("id");
+                        var userName = $(this).data("username");
+                        
+                        $("#changeRoleModalLabel").text("Kullanıcı Rolünü Değiştir: " + userName);
+                        $("#userId").val(userId);
+                        $("#changeRoleModal").modal("show");
+                    });
+                    
+                    // Kullanıcı silme butonları
+                    $(".btn-delete-user").click(function() {
+                        var userId = $(this).data("id");
+                        var userName = $(this).data("username");
+                        
+                        $("#deleteUserName").text(userName);
+                        $("#deleteUserId").val(userId);
+                        $("#deleteUserModal").modal("show");
+                    });
+                } else {
+                    tbody.append('<tr><td colspan="5" class="text-center">Kullanıcı bulunamadı.</td></tr>');
+                }
+            }
+
+            // Rol değiştirme işlemi
+            $("#btnSaveRole").click(function() {
+                var userId = $("#userId").val();
+                var selectedRole = $("#roleSelect").val();
+                
+                console.log("Rol değiştirme isteği:", {
+                    userId: userId,
+                    selectedRole: selectedRole
+                });
+                
+                $.ajax({
+                    url: apiBaseUrl + "/User/" + encodeURIComponent(userId) + "/roles",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify(selectedRole),
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function(response) {
+                        console.log("Başarılı yanıt:", response);
+                        Toast.success(response.message || "Kullanıcı rolü başarıyla değiştirildi.");
+                        $("#changeRoleModal").modal("hide");
+                        getUsers(); // Kullanıcı listesini yenile
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Rol değiştirme hatası:", {
+                            status: status,
+                            error: error,
+                            response: xhr.responseText
+                        });
+                        
+                        let errorMessage = "Rol değiştirilirken bir hata oluştu.";
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {
+                            console.error("JSON parse hatası:", e);
+                        }
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            });
+
+            // Kullanıcı silme işlemi
+            $("#btnDeleteUser").click(function() {
+                var userId = $("#deleteUserId").val();
+                
+                $.ajax({
+                    url: apiBaseUrl + "/User/" + userId,
+                    type: "DELETE",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function(response) {
+                        Toast.success("Kullanıcı başarıyla silindi.");
+                        $("#deleteUserModal").modal("hide");
+                        getUsers(); // Kullanıcı listesini yenile
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Kullanıcı silme hatası:", error);
+                        let errorMessage = "Kullanıcı silinirken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            });
+
+            // Sayfa yüklendiğinde kullanıcıları getir
+            getUsers();
+        });
+    </script>
+} 

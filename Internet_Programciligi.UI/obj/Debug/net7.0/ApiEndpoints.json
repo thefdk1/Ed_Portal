@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Internet_Programciligi.UI.Controllers.SessionController",
+    "Method": "GetToken",
+    "RelativePath": "api/Session/GetToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Internet_Programciligi.UI.Controllers.SessionController",
+    "Method": "SetToken",
+    "RelativePath": "api/Session/SetToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Internet_Programciligi.UI.Controllers.TokenModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

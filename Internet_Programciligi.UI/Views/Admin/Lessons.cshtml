@@ -1,0 +1,499 @@
+@{
+    ViewData["Title"] = "Ders Yönetimi";
+    Layout = "_LayoutAdmin";
+}
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Ders Yönetimi</h1>
+    <button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" data-toggle="modal" data-target="#addLessonModal">
+        <i class="fas fa-plus fa-sm text-white-50"></i> Yeni Ders
+    </button>
+</div>
+
+<!-- Content Row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Ders Listesi</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="lessonsTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Ders Adı</th>
+                                <th>Kurs</th>
+                                <th>Süre</th>
+                                <th>Sıra</th>
+                                <th>Durum</th>
+                                <th>İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody id="lessonsTableBody">
+                            <!-- Dersler burada listelenecek -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Ders Ekle Modal -->
+<div class="modal fade" id="addLessonModal" tabindex="-1" role="dialog" aria-labelledby="addLessonModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addLessonModalLabel">Yeni Ders Ekle</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="addLessonForm">
+                    <div class="form-group">
+                        <label for="lessonTitle">Ders Adı</label>
+                        <input type="text" class="form-control" id="lessonTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lessonDescription">Açıklama</label>
+                        <textarea class="form-control" id="lessonDescription" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="lessonCourse">Kurs</label>
+                        <select class="form-control" id="lessonCourse" required>
+                            <!-- Kurslar burada listelenecek -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="lessonVideoUrl">Video URL</label>
+                        <input type="text" class="form-control" id="lessonVideoUrl">
+                    </div>
+                    <div class="form-group">
+                        <label for="lessonDuration">Süre (dakika)</label>
+                        <input type="number" class="form-control" id="lessonDuration" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="lessonOrder">Sıra</label>
+                        <input type="number" class="form-control" id="lessonOrder" min="1" value="1">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+                <button class="btn btn-primary" id="btnSaveLesson">Kaydet</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Ders Düzenle Modal -->
+<div class="modal fade" id="editLessonModal" tabindex="-1" role="dialog" aria-labelledby="editLessonModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editLessonModalLabel">Ders Düzenle</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editLessonForm">
+                    <input type="hidden" id="editLessonId">
+                    <div class="form-group">
+                        <label for="editLessonTitle">Ders Adı</label>
+                        <input type="text" class="form-control" id="editLessonTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="editLessonDescription">Açıklama</label>
+                        <textarea class="form-control" id="editLessonDescription" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="editLessonCourse">Kurs</label>
+                        <select class="form-control" id="editLessonCourse" required>
+                            <!-- Kurslar burada listelenecek -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="editLessonVideoUrl">Video URL</label>
+                        <input type="text" class="form-control" id="editLessonVideoUrl">
+                    </div>
+                    <div class="form-group">
+                        <label for="editLessonDuration">Süre (dakika)</label>
+                        <input type="number" class="form-control" id="editLessonDuration" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="editLessonOrder">Sıra</label>
+                        <input type="number" class="form-control" id="editLessonOrder" min="1">
+                    </div>
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="editLessonIsActive">
+                            <label class="custom-control-label" for="editLessonIsActive">Aktif</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+                <button class="btn btn-primary" id="btnUpdateLesson">Güncelle</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Ders Silme Modal -->
+<div class="modal fade" id="deleteLessonModal" tabindex="-1" role="dialog" aria-labelledby="deleteLessonModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteLessonModalLabel">Ders Sil</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Bu dersi silmek istediğinize emin misiniz?</p>
+                <p>Ders Adı: <span id="deleteLessonName"></span></p>
+                <input type="hidden" id="deleteLessonId">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+                <button class="btn btn-danger" id="btnDeleteLesson">Sil</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var apiBaseUrl = "@ViewBag.ApiBaseURL";
+            var token = "@ViewBag.Token";
+            var courses = [];
+
+            // Kursları getir
+            function getCourses() {
+                $.ajax({
+                    url: apiBaseUrl + "/Course",
+                    type: "GET",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function (data) {
+                        courses = data;
+                        populateCourseDropdowns();
+                        getLessons(); // Kurs listesi yüklendikten sonra dersleri getir
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Kurs verileri alınırken hata oluştu:", error);
+                        let errorMessage = "Kurslar alınırken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            }
+
+            // Kurs dropdown menülerini doldur
+            function populateCourseDropdowns() {
+                var addDropdown = $("#lessonCourse");
+                var editDropdown = $("#editLessonCourse");
+                
+                addDropdown.empty();
+                editDropdown.empty();
+                
+                // Seçim yapılmadığında gösterilecek ilk seçenek
+                addDropdown.append('<option value="">Kurs Seçin</option>');
+                editDropdown.append('<option value="">Kurs Seçin</option>');
+                
+                if (courses && courses.length > 0) {
+                    // Sadece aktif kursları göster
+                    var activeCourses = courses.filter(c => c.isActive);
+                    
+                    activeCourses.forEach(function (course) {
+                        addDropdown.append(`<option value="${course.id}">${course.name}</option>`);
+                        editDropdown.append(`<option value="${course.id}">${course.name}</option>`);
+                    });
+                } else {
+                    addDropdown.append('<option value="" disabled>Kurs bulunamadı</option>');
+                    editDropdown.append('<option value="" disabled>Kurs bulunamadı</option>');
+                }
+            }
+
+            // Tüm dersleri getir
+            function getLessons() {
+                $.ajax({
+                    url: apiBaseUrl + "/Lesson",
+                    type: "GET",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function (data) {
+                        displayLessons(data);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Ders verileri alınırken hata oluştu:", error);
+                        let errorMessage = "Dersler alınırken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                        $("#lessonsTableBody").html("<tr><td colspan='7' class='text-center'>Dersler yüklenirken bir hata oluştu</td></tr>");
+                    }
+                });
+            }
+
+            // Dersleri tabloya ekle
+            function displayLessons(lessons) {
+                var tbody = $("#lessonsTableBody");
+                tbody.empty();
+                
+                if (lessons && lessons.length > 0) {
+                    lessons.forEach(function (lesson) {
+                        var statusBadge = lesson.isActive 
+                            ? '<span class="badge badge-success">Aktif</span>' 
+                            : '<span class="badge badge-danger">Pasif</span>';
+                            
+                        var duration = lesson.duration > 0 
+                            ? lesson.duration + ' dk'
+                            : '-';
+                            
+                        // Kurs adını bul
+                        var courseName = "Bilinmiyor";
+                        if (lesson.courseId && courses.length > 0) {
+                            var course = courses.find(c => c.id === lesson.courseId);
+                            if (course) {
+                                courseName = course.name;
+                            }
+                        }
+
+                        // Sıra numarasını kontrol et
+                        var orderNumber = lesson.order || lesson.orderNumber || 0;
+                        console.log("Ders:", lesson.title, "Sıra:", orderNumber, "Order:", lesson.order, "OrderNumber:", lesson.orderNumber);
+                        
+                        var row = `<tr>
+                            <td>${lesson.id}</td>
+                            <td>${lesson.title}</td>
+                            <td>${courseName}</td>
+                            <td>${duration}</td>
+                            <td>${orderNumber || '-'}</td>
+                            <td>${statusBadge}</td>
+                            <td>
+                                <button class="btn btn-primary btn-sm btn-edit" data-id="${lesson.id}" data-title="${lesson.title}">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn btn-danger btn-sm btn-delete" data-id="${lesson.id}" data-title="${lesson.title}">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>`;
+                        
+                        tbody.append(row);
+                    });
+                    
+                    // Düzenleme ve silme butonu olaylarını ekle
+                    attachButtonEvents();
+                } else {
+                    tbody.append("<tr><td colspan='7' class='text-center'>Ders bulunamadı</td></tr>");
+                }
+            }
+            
+            // Yeni ders ekle
+            $("#btnSaveLesson").click(function() {
+                var courseId = $("#lessonCourse").val();
+                
+                if (!courseId) {
+                    Toast.warning("Lütfen bir kurs seçin.");
+                    return;
+                }
+                
+                var lessonData = {
+                    title: $("#lessonTitle").val(),
+                    description: $("#lessonDescription").val(),
+                    courseId: parseInt(courseId),
+                    videoUrl: $("#lessonVideoUrl").val(),
+                    duration: parseInt($("#lessonDuration").val()) || 0,
+                    order: parseInt($("#lessonOrder").val()) || 1,
+                    orderNumber: parseInt($("#lessonOrder").val()) || 1
+                };
+                
+                console.log("Gönderilen ders verisi:", lessonData);
+                
+                $.ajax({
+                    url: apiBaseUrl + "/Lesson",
+                    type: "POST",
+                    data: JSON.stringify(lessonData),
+                    contentType: "application/json",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function(response) {
+                        $("#addLessonModal").modal("hide");
+                        $("#addLessonForm")[0].reset();
+                        $("#lessonCourse").val("");  // Dropdown'u sıfırla
+                        getLessons();
+                        Toast.success("Ders başarıyla eklendi.");
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Ders eklenirken hata oluştu:", error);
+                        let errorMessage = "Ders eklenirken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            });
+            
+            // Buton olaylarını ekle
+            function attachButtonEvents() {
+                // Düzenle butonuna tıklama
+                $(".btn-edit").click(function() {
+                    var lessonId = $(this).data("id");
+                    var lessonTitle = $(this).data("title");
+                    
+                    $.ajax({
+                        url: apiBaseUrl + "/Lesson/" + lessonId,
+                        type: "GET",
+                        headers: {
+                            "Authorization": "Bearer " + token
+                        },
+                        success: function(lesson) {
+                            console.log("Düzenleme için gelen ders verisi:", lesson);
+                            $("#editLessonId").val(lesson.id);
+                            $("#editLessonTitle").val(lesson.title);
+                            $("#editLessonDescription").val(lesson.description);
+                            $("#editLessonCourse").val(lesson.courseId);
+                            $("#editLessonVideoUrl").val(lesson.videoUrl);
+                            $("#editLessonDuration").val(lesson.duration || 0);
+                            $("#editLessonOrder").val(lesson.order || lesson.orderNumber || 1);
+                            $("#editLessonIsActive").prop("checked", lesson.isActive);
+                            
+                            $("#editLessonModal").modal("show");
+                        },
+                        error: function(xhr, status, error) {
+                            console.error("Ders bilgileri alınırken hata oluştu:", error);
+                            Toast.error("Ders bilgileri alınırken bir hata oluştu.");
+                        }
+                    });
+                });
+                
+                // Sil butonuna tıklama
+                $(".btn-delete").click(function() {
+                    var lessonId = $(this).data("id");
+                    var lessonTitle = $(this).data("title");
+                    
+                    $("#deleteLessonName").text(lessonTitle);
+                    $("#deleteLessonId").val(lessonId);
+                    $("#deleteLessonModal").modal("show");
+                });
+            }
+            
+            // Ders güncelle
+            $("#btnUpdateLesson").click(function() {
+                var lessonId = $("#editLessonId").val();
+                var courseId = $("#editLessonCourse").val();
+                
+                if (!courseId) {
+                    Toast.warning("Lütfen bir kurs seçin.");
+                    return;
+                }
+                
+                var lessonData = {
+                    title: $("#editLessonTitle").val(),
+                    description: $("#editLessonDescription").val(),
+                    courseId: parseInt(courseId),
+                    videoUrl: $("#editLessonVideoUrl").val(),
+                    duration: parseInt($("#editLessonDuration").val()) || 0,
+                    orderNumber: parseInt($("#editLessonOrder").val()) || 1,
+                    order: parseInt($("#editLessonOrder").val()) || 1,
+                    isActive: $("#editLessonIsActive").is(":checked")
+                };
+                
+                console.log("Güncellenen ders verisi:", lessonData);
+                
+                $.ajax({
+                    url: apiBaseUrl + "/Lesson/" + lessonId,
+                    type: "PUT",
+                    data: JSON.stringify(lessonData),
+                    contentType: "application/json",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function(response) {
+                        $("#editLessonModal").modal("hide");
+                        getLessons();
+                        Toast.success("Ders başarıyla güncellendi.");
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Ders güncellenirken hata oluştu:", error);
+                        let errorMessage = "Ders güncellenirken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            });
+            
+            // Ders silme işlemi
+            $("#btnDeleteLesson").click(function() {
+                var lessonId = $("#deleteLessonId").val();
+                
+                $.ajax({
+                    url: apiBaseUrl + "/Lesson/" + lessonId,
+                    type: "DELETE",
+                    headers: {
+                        "Authorization": "Bearer " + token
+                    },
+                    success: function(response) {
+                        $("#deleteLessonModal").modal("hide");
+                        getLessons();
+                        Toast.success("Ders başarıyla silindi.");
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Ders silinirken hata oluştu:", error);
+                        let errorMessage = "Ders silinirken bir hata oluştu.";
+                        
+                        try {
+                            const response = JSON.parse(xhr.responseText);
+                            if (response && response.message) {
+                                errorMessage = response.message;
+                            }
+                        } catch (e) {}
+                        
+                        Toast.error(errorMessage);
+                    }
+                });
+            });
+            
+            // Sayfa yüklendiğinde kursları ve dersleri getir
+            getCourses();
+        });
+    </script>
+} 

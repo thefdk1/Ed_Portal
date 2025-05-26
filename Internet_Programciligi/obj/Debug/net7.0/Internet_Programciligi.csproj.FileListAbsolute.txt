@@ -1,0 +1,1075 @@
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\Internet_Programciligi\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\Internet_Programciligi_Vize\Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\Final_Internet_Programciligi\Final-Egitim-Portali\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Mac\Home\Desktop\Final-Egitim-Portali2\Internet_Programciligi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\IP FINAL\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya 190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-190525\Final-Egitim-Portali2 - Kopya\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Mac\Home\Desktop\IP FINAL - Kopya2-200525\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.runtime.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.runtime.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.endpoints.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal-24-05-25\(GUNCEL)(230525)IP FINAL - Kopya2-200525 - Kopya (2)\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.runtime.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\EDPortal\EdPortalProj\Final-Egitim-Portali2 - Kopya2\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.runtime.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\EdPortalProj\Egitim_Portali\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\appsettings.Development.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\appsettings.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.staticwebassets.runtime.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.exe
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.deps.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.runtimeconfig.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Azure.Core.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Humanizer.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.AssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cs
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.MvcApplicationPartsAssemblyInfo.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.Internet_Programciligi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.build.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Internet_Programciligi.props
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\scopedcss\bundle\Internet_Programciligi.styles.css
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet.D2E78B4D.Up2Date
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\refint\Internet_Programciligi.dll
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.pdb
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\Internet_Programciligi.genruntimeconfig.cache
+C:\Mac\Home\Desktop\EDPortal - Kopya\Internet_Programciligi\obj\Debug\net7.0\ref\Internet_Programciligi.dll

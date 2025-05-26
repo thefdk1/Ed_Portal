@@ -1,0 +1,145 @@
+@{
+    ViewData["Title"] = "Öğretmenler";
+}
+
+<!-- Banner Section Start -->
+<section class="page-header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-8">
+                <div class="title-block">
+                    <h1>Öğretmenlerimiz</h1>
+                    <ul class="header-bradcrumb justify-content-center">
+                        <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                        <li class="active" aria-current="page">Öğretmenler</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Instructors Section Start -->
+<section class="section-padding">
+    <div class="container">
+        <div class="row" id="teacherCards">
+            <div class="col-12 text-center">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Yükleniyor...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            const apiBaseUrl = "@ViewBag.ApiBaseURL";
+            const token = "@ViewBag.Token";
+            const baseUrl = apiBaseUrl.replace('/api', '');
+            
+            console.log("API URL:", apiBaseUrl);
+            console.log("Base URL:", baseUrl);
+            console.log("Token mevcut:", token ? "Evet" : "Hayır");
+            
+            function getTeachers() {
+                $.ajax({
+                    url: apiBaseUrl + "/TeacherProfile",
+                    type: "GET",
+                    success: function(teachers) {
+                        console.log("Öğretmen verileri:", teachers);
+                        displayTeachers(teachers);
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Hata detayı:", {
+                            status: xhr.status,
+                            statusText: xhr.statusText,
+                            responseText: xhr.responseText
+                        });
+                        
+                        let errorMessage = "Öğretmen bilgileri yüklenirken bir hata oluştu.";
+                        
+                        $("#teacherCards").html(`
+                            <div class="col-12">
+                                <div class="alert alert-danger">
+                                    ${errorMessage}<br>
+                                    Lütfen daha sonra tekrar deneyin.
+                                </div>
+                            </div>
+                        `);
+                    }
+                });
+            }
+            
+            function displayTeachers(teachers) {
+                const container = $("#teacherCards");
+                container.empty();
+                
+                if (!teachers || teachers.length === 0) {
+                    container.html(`
+                        <div class="col-12">
+                            <div class="alert alert-info">
+                                Henüz öğretmen bilgisi bulunmamaktadır.
+                            </div>
+                        </div>
+                    `);
+                    return;
+                }
+                
+                teachers.forEach(teacher => {
+                    console.log("Öğretmen verisi:", teacher);
+                    
+                    let imageUrl = teacher.profilePictureUrl;
+                    if (imageUrl) {
+                        if (!imageUrl.startsWith('/')) {
+                            imageUrl = '/' + imageUrl;
+                        }
+                        imageUrl = baseUrl + imageUrl;
+                    }
+                    
+                    const defaultImage = baseUrl + '/images/default-profile.jpg';
+                    const fullName = teacher.fullName || 'İsimsiz Öğretmen';
+                    const categoryName = teacher.category ? teacher.category.name : 'Genel';
+                    
+                    // Kurs sayısını courses dizisinden al
+                    const courseCount = teacher.courses ? teacher.courses.length : 0;
+                    console.log("Öğretmen kurs sayısı:", courseCount);
+                    
+                    const card = `
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team-item team-item-2 mb-5">
+                                <div class="team-img">
+                                    <img src="${imageUrl || defaultImage}" alt="${fullName}" class="img-fluid" onerror="this.onerror=null; this.src='${defaultImage}';">
+
+                                    <ul class="team-social list-unstyled">
+                                        ${teacher.linkedinUrl ? `<li><a href="${teacher.linkedinUrl}" target="_blank"><i class="fab fa-linkedin"></i></a></li>` : ''}
+                                        ${teacher.twitterUrl ? `<li><a href="${teacher.twitterUrl}" target="_blank"><i class="fab fa-twitter"></i></a></li>` : ''}
+                                        ${teacher.facebookUrl ? `<li><a href="${teacher.facebookUrl}" target="_blank"><i class="fab fa-facebook"></i></a></li>` : ''}
+                                    </ul>
+                                </div>
+                                <div class="team-content">
+                                    <div class="team-info">
+                                        <h4>${fullName}</h4>
+                                        <p>${categoryName}</p>
+                                    </div>
+
+                                    <div class="course-meta">
+                                        <span class="lessons"><i class="far fa-play-circle me-2"></i>${courseCount} Kurs</span>
+                                    </div>
+                                    
+                                    <p class="team-description">${teacher.biography || 'Bu öğretmen hakkında bilgi bulunmamaktadır.'}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    
+                    container.append(card);
+                });
+            }
+            
+            // Sayfa yüklendiğinde öğretmenleri getir
+            getTeachers();
+        });
+    </script>
+} 
